@@ -38,5 +38,12 @@ namespace NikeWebsite
             men.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            WomenShoes women = new WomenShoes();
+            women.Show();
+            this.Hide();
+        }
     }
 }

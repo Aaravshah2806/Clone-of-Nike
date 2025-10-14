@@ -33,6 +33,7 @@ namespace NikeWebsite
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,13 +94,29 @@ namespace NikeWebsite
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(302, 366);
+            this.button1.Location = new System.Drawing.Point(181, 366);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(250, 50);
             this.button1.TabIndex = 7;
             this.button1.Text = "MEN'S SHOES";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Magenta;
+            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Magenta;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(443, 366);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(250, 50);
+            this.button2.TabIndex = 8;
+            this.button2.Text = "WOMEN'S SHOES";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -108,6 +125,7 @@ namespace NikeWebsite
             this.BackgroundImage = global::NikeWebsite.Properties.Resources.AJfQ9KRGbdrwYEROfrHC0d4oWcUrOwor;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(913, 536);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -129,6 +147,7 @@ namespace NikeWebsite
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
