@@ -1,4 +1,4 @@
-﻿namespace NikeWebsite
+namespace NikeWebsite
 {
     partial class Form1
     {
@@ -97,7 +97,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(250, 50);
             this.button1.TabIndex = 7;
-            this.button1.Text = "SEE ALL STYLES";
+            this.button1.Text = "MEN'S SHOES";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 

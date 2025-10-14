@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,8 +34,8 @@ namespace NikeWebsite
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
-            f3.Show();
+            MenShoes men = new MenShoes();
+            men.Show();
             this.Hide();
         }
     }
